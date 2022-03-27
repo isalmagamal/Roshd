@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <link rel="icon" href="img/logo-without-words.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--style css-->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+
+    
+<!---fontawesome--->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/all.css">
+
+<!--bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+<!----google-fonts---->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+<!---owl-carousel---->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<!--java scripts-->
+	<script src="js/myScript.js"></script>
+	<script src="js/moment.js"></script>
+    
+<!--
+<script src="js/pignose.calendar.min.js"></script>
+<link type="text/css" href="assets/pignose.calendar.min.css">
+-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/color-calendar/dist/css/theme-basic.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/color-calendar/dist/css/theme-glass.css" />
+<script src="https://cdn.jsdelivr.net/npm/color-calendar/dist/bundle.min.js"></script>
+</head>
+
+
+
+<body>
+	<div class="main-container book-date-main">
+    <div class="container-fluid">
+	<header>
+       <div class="header-inner row navbar navbar-default">
+           <div class="col-8 header-menu book-date-header">
+            <div class="dropdown mobile-sign account-sign">
+                          <button class="btn btn-secondary dropdown-toggle shadow-none desktop-book-date-account" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true" onclick="this.blur();">
+                              اسم المستخدم
+                          </button>
+                            <button class="btn btn-secondary dropdown-toggle shadow-none mobile-book-date-account" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true" onclick="this.blur();">
+                              <i class="fas fa-user"></i>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(407px, 38px, 0px);" data-popper-placement="bottom-start">
+                            <li><a class="dropdown-item" href="account-settings.html">
+                                حسابي
+                                </a></li> 
+                              
+                              <li><a class="dropdown-item" href="track-orders.html">
+                                الحجوزات السابقة
+                                </a></li> 
+                              
+                              <li><a class="dropdown-item signout-item" href="#">
+                                تسجيل الخروج
+                                </a></li>
+                          </ul>
+                </div>
+            <ul class="desktop-menu book-date-menu">
+                <li><a class="menu-link" href="index.html">الرئيسية</a></li>   
+                <li><a class="menu-link" href="about.html">عن رشد</a></li>   
+                <li><a class="menu-link" href="services-pages/services_service_1.html">خدماتنا</a></li>   
+                <li><a class="menu-link" href="consultants.html">مستشارين رشد</a></li>   
+                <li><a class="menu-link" href="categories-pages/courses.html">الدورات التدريبية</a></li>   
+                <li><a class="menu-link" href="blog.html">مدونة</a></li>   
+                <li><a class="menu-link" href="contact-us.html">تواصل معنا</a></li>    
+            </ul>
+             <a href="#toggle" class="hamburgler">
+                <div class="bun top"></div>
+                <div class="meat"></div>
+                <div class="bun bottom"></div>
+            </a>
+            <ul class="mobile-menu">
+                <li><a class="menu-link" href="index.html">الرئيسية</a></li>   
+                <li><a class="menu-link" href="about.html">عن رشد</a></li>   
+                <li><a class="menu-link" href="services-pages/services_service_1.html">خدماتنا</a></li>   
+                <li><a class="menu-link" href="consultants.html">مستشارين رشد</a></li>   
+                <li><a class="menu-link" href="categories-pages/courses.html">الدورات التدريبية</a></li>   
+                <li><a class="menu-link" href="blog.html">مدونة</a></li>   
+                <li><a class="menu-link" href="contact-us.html">تواصل معنا</a></li>       
+            </ul>
+            
+           
+           </div>
+           <div class="col-4 logo-container">
+            <a href="index.html"><img class="logo" src="img/logo.png"></a>
+           </div>
+           
+        </div>
+	</header>
+    </div>
+    <div class="container book-date-wrap">
+        <div class="row">
+            <div class="col-lg-6 book-date-right">
+                <p class="book-date-title">اختر الدورة:</p>
+                    <div class="custom-select book-date" style="width:250px;">
+                      <select>
+                        <option value="0">اسم الدورة</option>
+                        <option value="1">كورس الارشاد النفسي</option>
+                        <option value="2">كورس الارشاد النفسي</option>
+                        <option value="3">كورس الارشاد النفسي</option>
+                        <option value="4">كورس الارشاد النفسي</option>
+                        <option value="5">كورس الارشاد النفسي</option>
+                        <option value="6">كورس الارشاد النفسي</option>
+                        <option value="7">كورس الارشاد النفسي</option>
+                        <option value="8">كورس الارشاد النفسي</option>
+                      </select>
+                    </div> 
+                
+                <p class="book-date-title">اختر التخصص:</p>
+                    <div class="custom-select book-date" style="width:250px;">
+                      <select>
+                        <option value="0">اسم التخصص</option>
+                        <option value="1">تخصص علم نفس</option>
+                        <option value="2">تخصص علم نفس</option>
+                        <option value="3">تخصص علم نفس</option>
+                        <option value="4">تخصص علم نفس</option>
+                        <option value="5">تخصص علم نفس</option>
+                        <option value="6">تخصص علم نفس</option>
+                        <option value="7">تخصص علم نفس</option>
+                        <option value="8">تخصص علم نفس</option>
+                      </select>
+                    </div>
+               
+
+            </div>
+            <div class="col-lg-6 book-date-left">
+                <img class="book-course-img" src="img/online-learning.png">
+            </div>
+        </div> 
+    </div>
+         
+    </div>
+<!----end of main container----->
+
+<script>
+var x, i, j, l, ll, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+</script>
+
+</body>
+</html>

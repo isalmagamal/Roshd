@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <link rel="icon" href="img/logo-without-words.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!--style css-->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    
+<!---fontawesome--->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/all.css">
+
+<!--bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+<!----google-fonts---->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+<!---owl-carousel---->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    
+<!--java scripts-->
+	<script src="js/myScript.js"></script>
+    
+</head>
+
+
+
+<body>
+	<div class="main-container edit-account">
+	    <div class="container-fluid">
+	<header>
+       <div class="header-inner row navbar navbar-default">
+           <div class="col-8 header-menu book-date-header">
+            <div class="dropdown mobile-sign account-sign">
+                          <button class="btn btn-secondary dropdown-toggle shadow-none desktop-book-date-account" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true" onclick="this.blur();">
+                              اسم المستخدم
+                          </button>
+                            <button class="btn btn-secondary dropdown-toggle shadow-none mobile-book-date-account" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="true" onclick="this.blur();">
+                              <i class="fas fa-user"></i>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(407px, 38px, 0px);" data-popper-placement="bottom-start">
+                            <li><a class="dropdown-item" href="account-settings.html">
+                                حسابي
+                                </a></li> 
+                              
+                              <li><a class="dropdown-item" href="track-orders.html">
+                                الحجوزات السابقة
+                                </a></li> 
+                              
+                              <li><a class="dropdown-item signout-item" href="#">
+                                تسجيل الخروج
+                                </a></li>
+                          </ul>
+                </div>
+            <ul class="desktop-menu book-date-menu">
+                <li><a class="menu-link" href="index.html">الرئيسية</a></li>   
+                <li><a class="menu-link" href="about.html">عن رشد</a></li>   
+                <li><a class="menu-link" href="services-pages/services_service_1.html">خدماتنا</a></li>   
+                <li><a class="menu-link" href="consultants.html">مستشارين رشد</a></li>   
+                <li><a class="menu-link" href="categories-pages/courses.html">الدورات التدريبية</a></li>   
+                <li><a class="menu-link" href="blog.html">مدونة</a></li>   
+                <li><a class="menu-link" href="contact-us.html">تواصل معنا</a></li>    
+            </ul>
+             <a href="#toggle" class="hamburgler">
+                <div class="bun top"></div>
+                <div class="meat"></div>
+                <div class="bun bottom"></div>
+            </a>
+            <ul class="mobile-menu">
+                <li><a class="menu-link" href="index.html">الرئيسية</a></li>   
+                <li><a class="menu-link" href="about.html">عن رشد</a></li>   
+                <li><a class="menu-link" href="services-pages/services_service_1.html">خدماتنا</a></li>   
+                <li><a class="menu-link" href="consultants.html">مستشارين رشد</a></li>   
+                <li><a class="menu-link" href="categories-pages/courses.html">الدورات التدريبية</a></li>   
+                <li><a class="menu-link" href="blog.html">مدونة</a></li>   
+                <li><a class="menu-link" href="contact-us.html">تواصل معنا</a></li>       
+            </ul>
+            
+           
+           </div>
+           <div class="col-4 logo-container">
+            <a href="index.html"><img class="logo" src="img/logo.png"></a>
+           </div>
+           
+        </div>
+	</header>
+    </div>
+        
+    <div class="account-settings-section">
+        <div class="container">
+            <div class=" row">
+            <div class="col-lg-4 account-nav-menu-wrap">
+                <div class="account-nav-menu">
+                    <ul>
+                     <li class="account-nav-menu-item active-nav-menu-item">
+                        <a href="student-account.html">
+                                حسابي
+                        </a></li>  
+                    <li class="account-nav-menu-item"><a class="" href="previous-courses.html">
+                                الدورات السابقة
+                    </a>
+                    </li>  
+                    <li class="account-nav-menu-item"><a class="signout-item" href="#">
+                                تسجيل الخروج
+                   </a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 account-email-psw-wrapper">
+                <div class="account-email-psw">
+                    <div class="account-email">
+                        <p class="edit-account">البريد الالكتروني
+                        <img class="edit-icon edit-email-icon" src="img/pen.png">
+                        </p>
+                    <p class="registered-email">
+                    email@email.com    
+                    </p>
+                    </div>                
+                <div class="change-psw-wrap">
+                    <p class="change-psw edit-psw-btn">تغيير الرقم السري</p>
+                </div>
+            </div>
+            </div>
+            
+            <div class="col-lg-4 account-info-wrap">
+                <div class="account-info-div">
+                <p class="edit-account">المعلومات الشخصية
+                        <img class="edit-icon edit-info-icon" src="img/pen.png">
+                </p>
+                <div class="personal-info-wrap">
+                <p class="name-title">الاسم:</p>
+                <p class="name">محمود علي</p>
+                <p class="phone-title">رقم الهاتف:</p>    
+                <p class="phone-num">054 865 489</p>
+
+                </div>
+                </div>
+            </div>
+        </div>   
+        </div>
+        
+        
+    </div>
+
+         
+    <div class="edit-email-div">
+        <div class="edit-email-inner">
+        <i class="far fa-times-circle close-edit-pop"></i>
+        <p>تعديل البريد الالكتروني</p>
+            <form>
+            <div class="form-group form-group-edit">
+                            <input type="email" placeholder="البريد الالكتروني" required>
+         </div>   
+            <button type="submit" class="btn btn-default form-submit-btn blue-btn save-edit-btn">حفظ</button></form>
+        </div>
+    </div>  
+        
+    <div class="edit-psw-div">
+        <div class="edit-psw-inner">
+        <i class="far fa-times-circle close-edit-pop"></i>
+        <p>تعديل الرقم السري</p>
+            <form>
+            <div class="form-group form-group-edit">
+                <input class="psw-edit-input" type="password" name="pwd" placeholder="الرقم السري" required>
+                <input type="password" name="pwd" placeholder="اعادة كتابة الرقم السري" required>
+            </div>   
+            <button type="submit" class="btn btn-default form-submit-btn blue-btn save-edit-btn save-edit-btn">حفظ</button></form>
+        </div>
+    </div> 
+    <div class="edit-psw-div">
+        <div class="edit-psw-inner">
+        <i class="far fa-times-circle close-edit-pop"></i>
+        <p>تعديل الرقم السري</p>
+            <form>
+            <div class="form-group form-group-edit">
+                <input class="psw-edit-input" type="password" name="pwd" placeholder="الرقم السري" required>
+                <input type="password" name="pwd" placeholder="اعادة كتابة الرقم السري" required>
+            </div>   
+            <button type="submit" class="btn btn-default form-submit-btn blue-btn save-edit-btn save-edit-btn">حفظ</button></form>
+        </div>
+    </div> 
+    <div class="edit-info-div">
+        <div class="edit-info-inner">
+        <i class="far fa-times-circle close-edit-pop"></i>
+        <p>تعديل المعلومات الشخصية</p>
+            <form>
+            <div class="form-group form-group-edit">
+                <input class="edit-name-input" type="text" placeholder="الاسم" required>
+                <input type="number" placeholder="رقم الهاتف" required>            
+                </div>   
+            <button type="submit" class="btn btn-default form-submit-btn blue-btn save-edit-btn save-edit-btn">حفظ</button></form>
+        </div>
+    </div>
+         
+    
+        
+    </div>
+<!----end of main container----->
+
+         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+          <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+
+</body>
+</html>
